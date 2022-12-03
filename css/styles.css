@@ -1,0 +1,220 @@
+:root {
+    --color-main: #434455;
+    --color-link: #4D5AE5;
+    --color-fff: #FFFFFF;
+    --color-a: #2E2F42;
+    --color-logo-footer: #F4F4FD;
+    --color-addres: #434455;
+    --color-p-footer: #E7E9FC;
+    --color-button-portfolio: rgba(0, 0, 0, 0.1);
+    --color-button-portfolio-one: rgba(0, 0, 0, 0.08);
+    --color-button-portfolio-two: rgba(0, 0, 0, 0.12);
+    --color-button-rgba: rgba(0, 0, 0, 0.15);
+    --color-button-ind: rgba(46, 47, 66, 0.08);
+    --color-button-inde: rgba(46, 47, 66, 0.16)
+    --color-button-index: rgba(46, 47, 66, 0.08);
+    --color-active: #404BBF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-main);
+}
+
+.portfolio-a {
+    text-decoration: none;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.body-text {
+    color: var(--color-main);
+}
+
+.text-h-two {
+    font-weight: 600;
+    line-height: 1.11;
+    font-size: 36px;
+    color: var(--color-a)
+}
+
+.text-person {
+    font-weight: 500;
+    line-height: 1.17;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.logo-footer span {
+    color: var(--color-logo-footer);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+.logo span {
+    color: var(--color-a);
+}
+
+.footer {
+    background: var(--color-a);
+}
+
+.link-nav {
+    font-weight: 600;
+    color: var(--color-a);
+    text-decoration: none;
+}
+
+.link-nav:hover {
+    color: var(--color-addres);
+}
+
+.link-nav:focus {
+    color: var(--color-link);
+}
+
+.link-nav:active {
+    color: var(--color-link)
+}
+
+
+.link-contacts {
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-addres);
+}
+
+.link-contacts:hover {
+    color: var(--color-link);
+}
+
+.link-contacts:focus {
+    color: var(--color-link);
+}
+
+div {
+    background-color: var(--color-a);
+}
+
+.text-h-three {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.text-section-job {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--color-a);
+}
+
+.capital-letter {
+    width: 492px;
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 600;    
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-fff);
+}
+
+.button-portfolio {
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 3px 1px var(--color-button-portfolio), 0px 2px 1px var(--color-button-portfolio-one), 0px 2px 2px var(--color-button-portfolio-two);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    background: var(--color-logo-footer);
+    color: var(--color-link);
+}
+
+.button-portfolio:hover {
+    background: var(--color-link);
+    cursor: pointer;
+    color: var(--color-fff);
+}
+
+.button-portfolio:focus {
+    background: var(--color-link);
+    color: var(--color-fff);
+}
+
+.button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    width: 170px;
+    height: 51px;
+    background: var(--color-link);
+    box-shadow: 0px 4px 4px var(--color-button-rgba);
+    border-radius: 4px;
+    color: var(--color-fff);
+}
+
+.button:hover {
+    background: var(--color-link);
+    color: var(--color-fff);
+    box-shadow: 0px 1px 6px var(--color-button-ind), 0px 1px 1px var(--color-button-inde), 0px 2px 1px var(--color-button-index);
+}
+
+.button:focus {
+    background: var(--color-link);
+    color: var(--color-fff);
+}
+
+.button:active{
+    color: var(--color-fff);
+    background: var(--color-active);
+    box-shadow: 0px 4px 4px var(--color-button-rgba)
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.white {
+    color: var(--color-p-footer)
+}
+
+.team {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-a)
+}
