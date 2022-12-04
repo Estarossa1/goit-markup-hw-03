@@ -7,40 +7,41 @@
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <header>
+  <header class="main-nav">
     <a href="./index.html" class="logo">
       Web<span>Studio</span>
     </a>
     <nav>
-      <ul class="ul">
-        <li>
+      <ul class="ul ul-nav">
+        <li class="li-nav">
           <a href="./index.html" class="link-nav">
             Studio
           </a>
       </li>
-        <li>
+        <li class="li-nav">
           <a href="portfolio.html" class="link-nav">
             Portfolio
           </a>
         </li>
-        <li>
+        <li class="li-nav">
           <a href="" class="link-nav">
             Contacts
           </a>
-        </li>
+        </li class="li-nav">
       </ul>
     </nav>
-    <ul class="ul">
-        <li>
+    <ul class="ul ul-addres">
+      <li class="li-addres">
         <a href="mailto:info@devstudio.com" class="link-contacts">
           info@devstudio.com
       </a>
     </li>
-      <li>
+      <li class="li-addres">
         <a href="tel:+110001111111" class="link-contacts">
           +11 (000) 111-11-11
         </a>
@@ -51,37 +52,40 @@
     <h1 class="visually-hidden">
       Main
     </h1>
-    <ul class="ul">
-      <li>
+    <!-- Не виходить зробити їх поцетру також і у файлі індекс такаж фігна
+    що тфльки не пробував виходить не те
+    помітив що і сам сайт у мене чомусь більший від макету це яскравово видно у flex -->
+    <ul class="ul ul-portfolio-main">
+      <li class="li-portfolio-main">
         <button type="button" class="button-portfolio">
           All
       </button>
       </li>
-      <li>
+      <li class="li-portfolio-main">
         <button type="button" class="button-portfolio">
           Web Site
       </button>
       </li>
-      <li>
+      <li class="li-portfolio-main">
         <button type="button" class="button-portfolio">
           App
       </button>
       </li>
-      <li>
+      <li class="li-portfolio-main">
         <button type="button" class="button-portfolio">
           Design
       </button>
       </li>
-      <li>
+      <li class="li-portfolio-main">
         <button type="button" class="button-portfolio">
           Marketing
       </button>
       </li>
     </ul>
-    <ul class="ul">
-      <li>
+    <ul class="ul ul-portfolio-job">
+      <li class="li-portfolio-job">
         <a href="" class="portfolio-a">
-          <img src="./img/banking.jpg" alt="Banking App Interface Concept" width="360">
+          <img src="./img/banking.jpg" alt="Banking App Interface Concept" width="330">
           <h2 class="text-section-job">
             Banking App Interface Concept
           </h2>
@@ -91,9 +95,9 @@
           
         </a>
       </li>
-      <li>
+      <li class="li-portfolio-job">
         <a href="" class="portfolio-a">
-          <img src="./img/cashless.jpg" alt="Cashless Payment"  width="360">
+          <img src="./img/cashless.jpg" alt="Cashless Payment"  width="330">
           <h2 class="text-section-job">
             Cashless Payment
           </h2>
@@ -102,9 +106,9 @@
           </p>
         </a>
       </li>
-      <li>
+      <li class="li-portfolio-job">
         <a href="" class="portfolio-a">
-          <img src="./img/meditaion.jpg" alt="Meditaion App" width="360">
+          <img src="./img/meditaion.jpg" alt="Meditaion App" width="330">
           <h2 class="text-section-job">
             Meditaion App
           </h2>
@@ -113,9 +117,9 @@
           </p>
         </a>
       </li>
-      <li>
+      <li class="li-portfolio-job">
         <a href="" class="portfolio-a">
-          <img src="./img/taxi.jpg" alt="Taxi Service" width="360">
+          <img src="./img/taxi.jpg" alt="Taxi Service" width="330">
           <h2 class="text-section-job">
             Taxi Service
           </h2>
@@ -124,9 +128,9 @@
           </p>
         </a>
       </li>
-      <li>
+      <li class="li-portfolio-job">
         <a href="" class="portfolio-a">
-          <img src="./img/screen.jpg" alt="Screen Illustrations" width="360">
+          <img src="./img/screen.jpg" alt="Screen Illustrations" width="330">
           <h2 class="text-section-job">
             Screen Illustrations
           </h2>
@@ -135,9 +139,9 @@
           </p>
         </a>
       </li>
-      <li>
+      <li class="li-portfolio-job">
         <a href="" class="portfolio-a">
-          <img src="./img/online.jpg" alt="Online Courses" width="360">
+          <img src="./img/online.jpg" alt="Online Courses" width="330">
           <h2 class="text-section-job">
             Online Courses
           </h2>
@@ -146,9 +150,9 @@
           </p>
         </a>
       </li>
-      <li>
+      <li class="li-portfolio-job">
         <a href="" class="portfolio-a">
-          <img src="./img/instagram.jpg" alt="Instagram Stories Concept" width="360">
+          <img src="./img/instagram.jpg" alt="Instagram Stories Concept" width="330">
           <h2 class="text-section-job">
             Instagram Stories Concept
           </h2>
@@ -157,9 +161,9 @@
           </p>
         </a>
       </li>
-      <li>
+      <li class="li-portfolio-job">
         <a href="" class="portfolio-a">
-          <img src="./img/organic.jpg" alt="Organic Food" width="360">
+          <img src="./img/organic.jpg" alt="Organic Food" width="330">
           <h2 class="text-section-job">
             Organic Food
           </h2>
@@ -168,9 +172,9 @@
           </p>
         </a>
       </li>
-      <li>
+      <li class="li-portfolio-job">
         <a href="" class="portfolio-a">
-          <img src="./img/fresh.jpg" alt="Fresh Coffee" width="360">
+          <img src="./img/fresh.jpg" alt="Fresh Coffee" width="330">
           <h2 class="text-section-job">
             Fresh Coffee
           </h2>

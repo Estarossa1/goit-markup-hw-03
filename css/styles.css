@@ -23,12 +23,104 @@ body {
     color: var(--color-main);
 }
 
+.main-nav{
+    align-items: center;
+    display: flex;
+}
+
 .portfolio-a {
     text-decoration: none;
 }
 
 .ul {
     list-style-type: none;
+}
+
+.ul .li-nav:not(:last-child) {
+    margin-right: 40px;
+}
+
+.ul-nav {
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.ul-addres {
+    padding-right: 156px;
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.ul-addres {
+    margin-left: auto;
+}
+
+.ul .li-addres:not(:last-child) {
+    margin-right: 40px;
+}
+
+.li-advantages:not(:last-child) {
+    margin-right: 24px;
+}
+
+.ul-advantages {
+    padding-right: 156px;
+    padding-left: 156px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 120px;
+}
+
+.li-advantages {
+    width: 264px;
+    /* box-sizing: content-box; */
+}
+
+.ul-imeges {
+    display: flex;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.li-imeges:not(:last-child) {
+    margin-right: 24px;
+}
+
+.ul-photos-hero {
+    display: flex;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.li-photos-hero:not(:last-child) {
+    margin-right: 24px;
+}
+
+.ul-portfolio-main {
+    display: flex;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.li-portfolio-main:not(:last-child) {
+    margin-right: 24px;
+}
+
+.ul-portfolio-job {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.li-portfolio-job:not(:last-child) {
+    margin-right: 24px;
 }
 
 .body-text {
@@ -39,12 +131,20 @@ body {
     font-weight: 600;
     line-height: 1.11;
     font-size: 36px;
+    position:relative;
+    margin-top: 0;
+    margin-bottom: 72px;
     color: var(--color-a)
 }
 
 .text-person {
     font-weight: 500;
     line-height: 1.17;
+}
+
+.div-main {
+    align-items: center;
+    background-color: var(--color-a);
 }
 
 .logo-footer {
@@ -63,9 +163,11 @@ body {
 
 .logo {
     font-family: 'Raleway', sans-serif;
+    margin-right: 77px;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    padding-left: 156px;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--color-link);
@@ -73,6 +175,12 @@ body {
 
 .logo span {
     color: var(--color-a);
+}
+
+.white {
+    width: 264px;
+height: 72px;
+left: 156px;
 }
 
 .footer {
@@ -112,9 +220,9 @@ body {
     color: var(--color-link);
 }
 
-div {
-    background-color: var(--color-a);
-}
+/* div {
+    
+} */
 
 .text-h-three {
     font-weight: 600;
@@ -131,10 +239,13 @@ div {
 }
 
 .capital-letter {
-    width: 492px;
+    width: 600px;
     font-size: 56px;
     line-height: 1.07;
-    font-weight: 600;    
+    font-weight: 600; 
+    margin-top: 192px;
+    margin-bottom: 48px;
+    /* margin-inline: auto; */
     text-align: center;
     text-transform: uppercase;
     color: var(--color-fff);
@@ -170,6 +281,9 @@ div {
     line-height: 1.19;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    display: block;
+    /* margin-inline: auto; */
+    margin-bottom: 192px;
     width: 170px;
     height: 51px;
     background: var(--color-link);
