@@ -129,9 +129,13 @@ img {
     display: flex;
 }
 
-.div-team {
+.section-team {
     background-color: var(--color-team);
     padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container-doing {
     padding-bottom: 120px;
 }
 
@@ -322,6 +326,10 @@ img {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
     background: var(--color-logo-footer);
     color: var(--color-link);
 }
@@ -394,9 +402,15 @@ img {
     color: var(--color-a)
 }
 
+/* Не знайшов значень border */
+
 .div-portfolio-job {
     margin: 0;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
+    box-sizing: border-box;
+    border-left: 16px solid;
+    border-right: 16px solid;
+    border-bottom: 32px solid;
 }
